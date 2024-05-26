@@ -7,11 +7,11 @@ import logo from '../../assests/images/logo.png';
 const Header = () => {
     return (
         <>
-            <nav class="navbar navbar-expand-lg ">
+            <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <img src={logo} height="70" alt=""
                         loading="lazy" />
-                    <button class="navbar-toggler ps-0" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
+                    <button class="navbar-toggler ps-0" type="button" data-toggle="collapse" data-target="#navbarExample01"
                         aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon d-flex justify-content-start align-items-center">
                             <IoMenu />

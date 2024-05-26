@@ -9,8 +9,8 @@ import car6 from '../../assests/images/car-rent-6.png'
 const Cargallery = () => {
     return (
         <>
-            <div className="container-fluid my-md-5 my-sm-3 ">
-                <h1 class="display-5 text-uppercase text-center pb-5 mb-5 fcar">find Your Car</h1>
+            <div className="container-fluid mt-5">
+                <h1 class="display-5 text-uppercase text-center pb-5">find Your Car</h1>
                 <div class="row ">
                     <div className="col-lg-4 col-md-6">
                         <div className="rent-item mb-4">

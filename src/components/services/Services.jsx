@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom';
 const services = () => {
     return (
         <>
-            <div className="container-fluid my-md-5 my-sm-3  py-sm-3"> 
-                    <h1 class="display-5 text-uppercase text-center py-5 mb-5">Our Services</h1>
+            <div className="container-fluid mt-5"> 
+                    <h1 class="display-5 text-uppercase text-center pb-5" id='servicehead'>Our Services</h1>
                     <div class="row">
                         <div class="col-lg-4 col-md-6 mb-2">
                             <div class="service-item d-flex flex-column justify-content-center px-4 mb-4">

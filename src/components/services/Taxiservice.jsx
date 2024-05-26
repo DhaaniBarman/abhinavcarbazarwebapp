@@ -26,7 +26,7 @@ const Taxiservice = () => {
             </a>
           </div>
         </div>
-        <div className="col-md-6 col-xs-12 col-sm-12 text-center">
+        <div className="col-md-6 col-xs-12 col-sm-12 text-center taxicol">
           <img src={taxiservice} alt="Taxi Service" className="img-fluid" width="500" />
         </div>
       </div>

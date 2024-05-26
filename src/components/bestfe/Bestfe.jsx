@@ -3,7 +3,7 @@ import { FaHeadset, FaCar, FaMapMarkerAlt } from 'react-icons/fa';
 const Bestfe = () => {
   return (
     <>
-     <div className="container-fluid my-md-5 my-sm-3  py-sm-3">
+     <div className="container-fluid mt-5">
           <div className="row ">
             <div className="col-lg-4 mb-2">
               <div className="d-flex align-items-center bg-light p-4 mb-4 bestfeatures" >

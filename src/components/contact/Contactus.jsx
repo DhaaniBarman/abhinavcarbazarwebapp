@@ -52,8 +52,8 @@ const Contactus = () => {
         }
     };
     return (
-        <div className="container-fluid my-lg-5 my-sm-3 ">
-            <h1 className="display-5 text-uppercase text-center pb-lg-5 fcar">Contact US</h1>
+        <div className="container-fluid mt-5 ">
+            <h1 className="display-5 text-uppercase text-center pb-5">Contact US</h1>
             <div className="row pt-lg-5 p-md-0 m-md-0">
                 <div className="col-lg-7 col-md-12 mb-lg-5">
                     <div className="contact-form bg-light mb-5 p-4">

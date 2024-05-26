@@ -68,7 +68,7 @@ h6,
 .font-weight-medium {
   font-weight: 500 !important;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 361px) and (max-width: 768px) {
   h1,
   h2,
 .font-weight-bold {
@@ -94,6 +94,7 @@ h6,
 .prow{
   padding-left:0px;
   padding-right: 0px;
+
 }
 .pwhy{
   padding-top: 15px;
@@ -104,11 +105,14 @@ h6,
 .pin{
   padding-left: 23px;
 }
-.fcar{
-  padding-bottom: 3px;
-  margin-bottom: 3px;
-}
 .tplace{
+  padding-top: 23px;
+}
+#servicehead{
+  padding: 0px;
+  margin: 0px;
+}
+.taxicol{
   padding-top: 23px;
 }
 }
@@ -187,9 +191,11 @@ background: #00308F;
 }
 
 /* banner1 */
-.bg-banner {
+.bg-banner{
   background: linear-gradient(rgba(6, 17, 137, 0.9), rgba(6, 17, 137, 0.9)), url('./assests/images/bg-banner.jpg');
   background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 .custom-line-height{
   line-height: 1.9;
