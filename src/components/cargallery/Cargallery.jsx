@@ -16,127 +16,42 @@ const Cargallery = () => {
                         <div className="rent-item mb-4">
                             <img className="img-fluid mb-4" src={car1} alt="car1" />
                             <h4 className="text-uppercase mb-4">Mercedes Benz R3</h4>
-                            <div className="d-flex justify-content-center mb-4">
-                                <div className="px-2">
-                                    <span className="fewinfo">Model: </span>
-                                    <span className="fewinfo">2015</span>
-                                </div>
-                                <div className="px-2 border-left border-right">
-                                    <span className="fewinfo">Owner: </span>
-                                    <span className="fewinfo">3</span>
-                                </div>
-                                <div className="px-2">
-                                    <span className="fewinfo">Mileage: </span>
-                                    <span className="fewinfo">25K</span>
-                                </div>
-                            </div>
-                            <button className="btn btn-warning px-3 text-dark fs-4" > Rs 1,50,000</button>
+                            <button className="btn btn-warning px-3 text-dark fs-4" >More Info</button>
                         </div>
                     </div>
-
                     <div class="col-lg-4 col-md-6 mb-2">
                         <div class="rent-item  mb-4">
                             <img class="img-fluid mb-4" src={car2} alt="" />
                             <h4 class="text-uppercase mb-4">Mercedes Benz R3</h4>
-                            <div className="d-flex justify-content-center mb-4">
-                                <div className="px-2">
-                                    <span className="fewinfo">Model: </span>
-                                    <span className="fewinfo">2015</span>
-                                </div>
-                                <div className="px-2 border-left border-right">
-                                    <span className="fewinfo">Owner: </span>
-                                    <span className="fewinfo">3</span>
-                                </div>
-                                <div className="px-2">
-                                    <span className="fewinfo">Mileage: </span>
-                                    <span className="fewinfo">25K</span>
-                                </div>
-                            </div>
-                           <button className="btn btn-warning px-3 text-dark fs-4" > Rs 1,50,000</button>
+                           <button className="btn btn-warning px-3 text-dark fs-4" >More Info</button>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-2">
                         <div class="rent-item mb-4">
                             <img class="img-fluid mb-4" src={car3} alt="" />
                             <h4 class="text-uppercase mb-4">Mercedes Benz R3</h4>
-                            <div className="d-flex justify-content-center mb-4">
-                                <div className="px-2">
-                                    <span className="fewinfo">Model: </span>
-                                    <span className="fewinfo">2015</span>
-                                </div>
-                                <div className="px-2 border-left border-right">
-                                    <span className="fewinfo">Owner: </span>
-                                    <span className="fewinfo">3</span>
-                                </div>
-                                <div className="px-2">
-                                    <span className="fewinfo">Mileage: </span>
-                                    <span className="fewinfo">25K</span>
-                                </div>
-                            </div>
-                           <button className="btn btn-warning px-3 text-dark fs-4" > Rs 1,50,000</button>
+                           <button className="btn btn-warning px-3 text-dark fs-4" >More Info</button>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-2">
                         <div class="rent-item mb-4">
                             <img class="img-fluid mb-4" src={car4} alt="" />
                             <h4 class="text-uppercase mb-4">Mercedes Benz R3</h4>
-                            <div className="d-flex justify-content-center mb-4">
-                                <div className="px-2">
-                                    <span className="fewinfo">Model: </span>
-                                    <span className="fewinfo">2015</span>
-                                </div>
-                                <div className="px-2 border-left border-right">
-                                    <span className="fewinfo">Owner: </span>
-                                    <span className="fewinfo">3</span>
-                                </div>
-                                <div className="px-2">
-                                    <span className="fewinfo">Mileage: </span>
-                                    <span className="fewinfo">25K</span>
-                                </div>
-                            </div>
-                           <button className="btn btn-warning px-3 text-dark fs-4" > Rs 1,50,000</button>
+                           <button className="btn btn-warning px-3 text-dark fs-4" >More Info</button>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-2">
                         <div class="rent-item mb-4">
                             <img class="img-fluid mb-4" src={car5} alt="" />
                             <h4 class="text-uppercase mb-4">Mercedes Benz R3</h4>
-                            <div className="d-flex justify-content-center mb-4">
-                                <div className="px-2">
-                                    <span className="fewinfo">Model: </span>
-                                    <span className="fewinfo">2015</span>
-                                </div>
-                                <div className="px-2 border-left border-right">
-                                    <span className="fewinfo">Owner: </span>
-                                    <span className="fewinfo">3</span>
-                                </div>
-                                <div className="px-2">
-                                    <span className="fewinfo">Mileage: </span>
-                                    <span className="fewinfo">25K</span>
-                                </div>
-                            </div>
-                           <button className="btn btn-warning px-3 text-dark fs-4" > Rs 1,50,000</button>
+                           <button className="btn btn-warning px-3 text-dark fs-4" >More Info</button>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-2">
                         <div class="rent-item mb-4">
                             <img class="img-fluid mb-4" src={car6} alt="" />
                             <h4 class="text-uppercase mb-4">Mercedes Benz R3</h4>
-                            <div className="d-flex justify-content-center mb-4">
-                                <div className="px-2">
-                                    <span className="fewinfo">Model: </span>
-                                    <span className="fewinfo">2015</span>
-                                </div>
-                                <div className="px-2 border-left border-right">
-                                    <span className="fewinfo">Owner: </span>
-                                    <span className="fewinfo">3</span>
-                                </div>
-                                <div className="px-2">
-                                    <span className="fewinfo">Mileage: </span>
-                                    <span className="fewinfo">25K</span>
-                                </div>
-                            </div>
-                           <button className="btn btn-warning px-3 text-dark fs-4" > Rs 1,50,000</button>
+                           <button className="btn btn-warning px-3 text-dark fs-4" >More Info</button>
                         </div>
                     </div>
                 </div>

@@ -4,8 +4,8 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 import OwlCarousel from 'react-owl-carousel';
 const Feedback = () => {
     return (
-        <div className="container-fluid my-lg-5 my-sm-3 ">
-                <h1 class="display-5 text-uppercase text-center fcar">Happy Client's</h1>
+        <div className="container-fluid mt-5 ">
+                <h1 className="display-5 text-uppercase text-center">Happy Client's</h1>
                 <OwlCarousel className="owl-theme py-5" loop margin={10} nav items={1}>
                     <div className="testimonial-item d-flex flex-column  px-4">                       
                        <p className="m-0 text-center">Exceptional service from Abhinav Car Bazar! The car was in pristine condition and the process was seamless.</p>

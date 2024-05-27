@@ -9,7 +9,7 @@ const Header = () => {
         <>
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                    <img src={logo} height="70" alt=""
+                    <img src={logo} height="70" alt="logo"
                         loading="lazy" />
                     <button class="navbar-toggler ps-0" type="button" data-toggle="collapse" data-target="#navbarExample01"
                         aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,34 +42,33 @@ const Header = () => {
                             <li className="nav-item mr-md-3 mymenu"><Link to="/about" className="nav-link  mymenu">About Us</Link></li>
                             <li className="nav-item mymenu"><Link to="/contact" className="nav-link mymenu">Contact Us</Link></li>
                         </ul>
-                        <ul class="navbar-nav flex-row">
-                            <li class="nav-item">
-                                <a className="text-dark text-decoration-none nav-link ps-2" href="tel:+91-9302152269">
-                                    < FaPhoneAlt />
-                                    +91-9302152269
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a className="text-dark text-decoration-none nav-link ps-2" href="tel:+91-9302152269">
-                                    +91-9302152269
-                                </a>
-                            </li>
-                            <li class="nav-item ml-5">
-                                <a class="nav-link px-2 text-dark" href="#!">
-                                    <FaFacebook />
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link px-2 text-dark" href="#!">
-                                    <FaInstagramSquare />
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" href="#!">
-                                    <  FaWhatsappSquare/>
-                                </a>
-                            </li>
-                        </ul>
+                        <ul className="navbar-nav flex-row flex-wrap">
+                        <li className="nav-item">
+                            <a className="text-dark text-decoration-none nav-link" href="tel:+91-9302152269">
+                                <FaPhoneAlt className="" />+91-9302152269
+                            </a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="text-dark text-decoration-none nav-link px-2 ps-sm-0" href="tel:+91-9165812126">
+                             9165812126
+                            </a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link px-2 text-dark" href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                                <FaFacebook />
+                            </a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link px-2 text-dark" href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                                <FaInstagramSquare />
+                            </a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link px-2 text-dark" href="https://whatsapp.com" target="_blank" rel="noopener noreferrer">
+                                <FaWhatsappSquare />
+                            </a>
+                        </li>
+                    </ul>
                     </div>
                 </div>
             </nav>
