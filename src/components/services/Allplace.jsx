@@ -14,10 +14,10 @@ import Satpura from '../../assests/images/Satpura.jpg';
 const Allplace = () => {
     return (
         <div>
-            <div className="container-fluid">
-                <div className="container-fluid py-5">
-                    <h1 className="display-5 text-uppercase text-center py-5">Tourists Places in Jabalpur</h1>
-                    <div className="card-deck py-5">
+            <div className="container-fluid mt-5">
+                <div className="container-fluid">
+                    <h3 className=" text-uppercase text-center pb-5">Tourists Places in Jabalpur</h3>
+                    <div className="card-deck ">
                         <div className="card">
                             <img className="card-img-top placeimg" src={bhedaghat} alt="Bhedaghat Waterfalls" />
                             <div className="card-body">
@@ -66,9 +66,9 @@ const Allplace = () => {
                     </div>
                 </div>
                 {/* near jabalpur */}
-                <div className="container-fluid">
-                    <h1 className="display-5 text-uppercase text-center py-5">Tourist Places Near Jabalpur</h1>
-                    <div className="card-deck py-5">
+                <div className="container-fluid mt-5">
+                    <h3 className="text-uppercase text-center pb-5">Tourist Places Near Jabalpur</h3>
+                    <div className="card-deck ">
                         <div className="card">
                             <img className="card-img-top placeimg" src={KanhaNationalPark} alt="Kanha National Park" />
                             <div className="card-body">

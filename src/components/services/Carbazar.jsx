@@ -7,20 +7,20 @@ import Feedback from '../feedback/Feedback';
 const Carbazar = () => {
   return (
     <>
-      <div className="container-fluid my-md-5 py-5 my-5">
-      <div className="row">
+      <div className="container-fluid mt-5">
+      <div className="row ">
         <div className="col-md-6 col-xs-12 col-sm-12 pl-4">
           <img src={buyerandseller} alt="buyerandseller" className="img-fluid" width="600" />
         </div>
         <div className="col-md-6 col-xs-12 col-sm-12">
-          <h1 className="display-5 text-uppercase">Best Used Car Buyer & Seller Service in Jabalpur</h1>
-          <p className='text-justify pr-5 py-4 custom-line-height'>
+          <h3 className=" text-uppercase px-3 pr-3 best">Best Used Car Buyer & Seller Service in Jabalpur</h3>
+          <p className='text-justify px-3 pr-3 custom-line-height'>
             Discover the best used car buying and selling service in Jabalpur, offering a seamless and trustworthy experience.
             Whether you're looking to buy a reliable pre-owned car or sell your current vehicle at the best price, we've got you covered.
             Our expert team ensures a hassle-free process, providing transparent deals and top-notch customer service.
             Experience a smooth transaction with us, where every deal is a win-win.
           </p>
-          <ul className="custom-line-height px-3">
+          <ul className="custom-line-height px-5  py-3 text-justify">
             <li>Wide Range of Cars</li>
             <li>Fair Pricing</li>
             <li>Easy Financing Options</li>
@@ -34,7 +34,7 @@ const Carbazar = () => {
             <li>Trade-In Options</li>
             <li>After-Sales Service</li>
           </ul>
-          <div className='py-5'>
+          <div className='pt-5 px-3'>
             <div className=''>
               <a href="tel:+919302152269" className='btn p-3 cbtn'>
                 <FaPhone />+91-9302152269

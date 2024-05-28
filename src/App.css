@@ -41,6 +41,21 @@
 .bannerbg{
   background: #00308F;
 }
+.cbtn{
+  background:#FFC107 !important;
+  border-top-right-radius: 20px !important;
+  border-bottom-left-radius: 20px !important; 
+  font-size: x-large !important;   
+  font-weight: 600 !important; 
+  color: #000 !important;
+}
+.cbtn:hover {
+  background:#FFC107 !important;
+  border-radius: 10px !important;
+  font-size: x-large !important;   
+  font-weight:700 !important; 
+  color: #000 !important;
+}
 .bestfeatures{
   height: 150px;
 }
@@ -53,7 +68,7 @@
   height: 100px;
 }
 /* all headings */
-h1,
+h3,
 h2,
 .font-weight-bold {
   font-weight: 700 !important;
@@ -69,7 +84,7 @@ h6,
   font-weight: 500 !important;
 }
 @media only screen and (min-width: 361px) and (max-width: 768px) {
-  h1,
+  h3,
   h2,
 .font-weight-bold {
   font-weight: 600 !important;
@@ -86,6 +101,32 @@ h6,
 .font-weight-medium {
   font-weight: 300 !important;
   font-size: 12px;
+}
+.bannertxt{
+  font-size: 22px !important;
+  text-align: center !important;
+}
+.conh{
+  font-size: 20px !important;
+}
+.cbtn{
+  background:#FFC107 !important;
+  border-top-right-radius: 20px !important;
+  border-bottom-left-radius: 20px !important; 
+  font-size: 16px !important;   
+  font-weight: 600 !important; 
+  color: #000 !important;
+}
+.cbtn:hover {
+  background:#FFC107 !important;
+  border-radius: 10px !important;
+  font-size: 18px !important;   
+  font-weight:700 !important; 
+  color: #000 !important;
+}
+.best{
+  padding-top: 23px !important;
+  padding-bottom: 23px !important;
 }
 .why{
   margin-top: 25px;
@@ -115,6 +156,7 @@ h6,
 .taxicol{
   padding-top: 23px;
 }
+
 }
 .contactinfo{
 background: #00308F;
@@ -153,12 +195,12 @@ background: #00308F;
   background: #00308F;
   color: #fff !important;
 }
-.service-item h1,
+.service-item h3,
 .service-item h4 {
   transition: .5s;
 }
-.service-item:hover h1,
-.service-item.active h1 {
+.service-item:hover h3,
+.service-item.active h3 {
   color: var(--dark) !important;
 }
 .service-item:hover h4,
@@ -166,7 +208,8 @@ background: #00308F;
   color: var(--light);
 }
 .rent-item {
-  padding: 30px;
+  height: 400px;
+  padding: 20px;
   text-align: center;
   background: var(--light);
   transition: .5s;
@@ -177,6 +220,9 @@ background: #00308F;
 }
 .rent-item h4 {
   transition: .5s;
+}
+.rent-item img{
+  height: 250px;
 }
 .rent-item:hover h4,
 .rent-item.active h4 ,
@@ -192,7 +238,7 @@ background: #00308F;
 
 /* banner1 */
 .bg-banner{
-  background: linear-gradient(rgba(6, 17, 137, 0.9), rgba(6, 17, 137, 0.9)), url('./assests/images/bg-banner.jpg');
+  background: linear-gradient(rgba(6, 17, 137, 0.9), rgba(6, 17, 137, 0.9)), url('./assests/images/Traveller.png');
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -201,21 +247,7 @@ background: #00308F;
   line-height: 1.9;
 }
 /* mybtn */
-.cbtn{
-  background:#FFC107 !important;
-  border-top-right-radius: 20px !important;
-  border-bottom-left-radius: 20px !important; 
-  font-size: x-large !important;   
-  font-weight: 600 !important; 
-  color: #000 !important;
-}
-.cbtn:hover {
-  background:#FFC107 !important;
-  border-radius: 10px !important;
-  font-size: x-large !important;   
-  font-weight:700 !important; 
-  color: #000 !important;
-}
+
 /* map */
 .gmap{
   border:0px;

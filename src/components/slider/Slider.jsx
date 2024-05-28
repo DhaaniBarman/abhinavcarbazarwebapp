@@ -1,7 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import slide1 from '../../assests/images/ss.png'
-import slide2 from '../../assests/images/sss.png'
+import slide1 from '../../assests/images/slide1.png'
+import slide2 from '../../assests/images/slide2.png'
 import slide3 from '../../assests/images/slide3.png'
 const Slider = () => {
   return (

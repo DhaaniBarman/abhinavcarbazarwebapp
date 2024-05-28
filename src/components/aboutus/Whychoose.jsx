@@ -10,7 +10,7 @@ const Whychoose = () => {
             <img src={abhinavcarservice} alt="abhinavcarservice" className="img-fluid m-0" width="600" />
           </div>
           <div className="col-md-6 col-xs-12 col-sm-12">
-            <h1 className="display-5 text-uppercase why">Why Choose Us</h1>
+            <h3 className=" text-uppercase why">Why Choose Us</h3>
             <p className='text-justify custom-line-height pwhy'>At Abhinav Car Services, we offer a comprehensive range of transportation solutions tailored to your needs. Whether you're looking to sell your used car, rent a vehicle for a trip, or need reliable transportation with our taxi service, we've got you covered.</p>
             <ul className='px-3 custom-line-height py-3 text-justify'>
               <li>Comprehensive Transportation Solutions: From selling used cars to renting vehicles for trips and providing reliable taxi services, we offer a wide range of transportation solutions to meet your needs.</li>

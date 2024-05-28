@@ -7,7 +7,7 @@ const Touristplaces = () => {
     return (
         <>
              <div className="container-fluid my-md-5 my-sm-3 ">
-                <h1 class="display-5 text-uppercase text-center pb-5 pt-sm-5 tplace ">Tourist Place in Jabalpur</h1>
+                <h3 class=" text-uppercase text-center pb-5 pt-sm-5 tplace ">Tourist Place in Jabalpur</h3>
                     <div className="card-deck pt-lg-5">
                         <div className="card">
                             <img className="card-img-top" src={bhedaghat} alt="Bhedaghat Waterfalls" style={{ height: "300px" }} />
